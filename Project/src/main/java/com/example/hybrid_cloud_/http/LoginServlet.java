@@ -16,14 +16,14 @@ import java.sql.SQLException;
  */
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public LoginServlet() {
-        super();
-        // TODO Auto-generated constructor stub
-    }
+
+	/**
+	 * @see HttpServlet#HttpServlet()
+	 */
+	public LoginServlet() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
@@ -41,31 +41,24 @@ public class LoginServlet extends HttpServlet {
 		String pwd=request.getParameter("pwd");
 
 		DbConnection db=DbConnection.getDbConnection();
-		db.mkcon();	
+		db.mkcon();
 		MessageDigest5Base oDigest5Base=new MessageDigest5Base();
 
- String sql="select * from admin where admin_id='"+id+"' and admin_pwd='"+oDigest5Base.getMD5(pwd.getBytes())+"'";
- System.out.println("sql :"+sql);
- ResultSet rs=db.fetch(sql);
- try {
-	if(rs.next())
-	 {
-	   //String session_id=session.getId();
-	   
-	   //request.getSession().setAttribute("se_id",session_id); 
-	  // System.out.println("session _id : "+session_id);
-		  request.getRequestDispatcher("welcome.jsp").forward(request, response);
-
-	
-	 }
-	 else
-	 {
-	  request.getRequestDispatcher("Errors.jsp").forward(request, response);
-		 
-	 }
-} catch (SQLException e) {
-	// TODO Auto-generated catch block
-	e.printStackTrace();
-}
-}
+		String sql="select * from admin where admin_id='"+id+"' and admin_pwd='"+oDigest5Base.getMD5(pwd.getBytes())+"'";
+		System.out.println("sql :"+sql);
+		ResultSet rs=db.fetch(sql);
+		try {
+			if(rs.next())
+			{
+				request.getRequestDispatcher("welcome.jsp").forward(request, response);
+			}
+			else
+			{
+				request.getRequestDispatcher("Errors.jsp").forward(request, response);
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 }

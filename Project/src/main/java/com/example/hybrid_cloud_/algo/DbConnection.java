@@ -3,12 +3,10 @@ import java.sql.*;
 
 public class  DbConnection
 {
-
 	private Connection con=null;
 	private Statement st=null;
 	private ResultSet rs=null;
 	private int i=0;
-
 	private static DbConnection db=null;
 
 	private DbConnection()
