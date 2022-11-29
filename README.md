@@ -6,7 +6,7 @@ Requirements to run the Project:
 3. MySQL(version 8.0.31)
 4. Tomcat(version apache-tomcat-9.0.69)
 6. Maven jars(commons.fileupload, commons.io, Java EE 6-Java EE 6, javax.xml.bind.jaxb.api, Maven: javax.servlet:javax.servlet-api:4.0.1, Maven: mysql:mysql-connector-java:5.1.49, Maven: org.apiguardian:apiguardian-api:1.1.0, Maven: org.junit.jupiter:junit-jupiter-api:5.7.1, Maven: org.junit.jupiter:junit-jupiter-engine:5.7.1, Maven: org.junit.platform:junit-platform-commons:1.7.1, Maven: org.junit.platform:junit-platform-engine:1.7.1, Maven: org.opentest4j:opentest4j:1.2.0)
-7. Setup MySQL database by using the given hybrid-cloud.sql file.
+7. Setup MySQL database by executing the provided Hybrid_Cloud.sql file.
 
 Steps to run the Project:
 1. Clone the repository and open the Project folder in IDE.
