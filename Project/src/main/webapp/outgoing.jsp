@@ -3,20 +3,20 @@
 <%@page import="java.security.MessageDigest"%>
 <%@page import="java.util.List"%>
 <%@page import="java.util.ArrayList"%>
-<%@page import="com.example.hybrid_cloud_.algo.ReadWriteFile"%>
+<%@page import="com.example.hybrid_cloud.algo.ReadWriteFile"%>
 <%@page import="javax.xml.bind.DatatypeConverter"%>
 <%@page import="java.io.ObjectOutputStream"%>
-<%@page import="com.example.hybrid_cloud_.algo.EData"%>
-<%@page import="com.example.hybrid_cloud_.algo.KeyGen"%>
-<%@page import="com.example.hybrid_cloud_.algo.FilesFingerprint"%>
-<%@page import="com.example.hybrid_cloud_.algo.Mypath"%>
+<%@page import="com.example.hybrid_cloud.algo.EData"%>
+<%@page import="com.example.hybrid_cloud.algo.KeyGen"%>
+<%@page import="com.example.hybrid_cloud.algo.FilesFingerprint"%>
+<%@page import="com.example.hybrid_cloud.algo.Mypath"%>
 <%@page import="java.io.DataInputStream"%>
 <%@page import="java.io.DataInput"%>
 <%@page import="java.io.FileOutputStream"%>
 <%@page import="java.sql.ResultSet"%>
-<%@page import="com.example.hybrid_cloud_.algo.DbConnection"%>
-<%@page import="com.example.hybrid_cloud_.algo.Encryption"%>
-<%@page import="com.example.hybrid_cloud_.algo.MessageDigest5Base"%>
+<%@page import="com.example.hybrid_cloud.algo.DbConnection"%>
+<%@page import="com.example.hybrid_cloud.algo.Encryption"%>
+<%@page import="com.example.hybrid_cloud.algo.MessageDigest5Base"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">

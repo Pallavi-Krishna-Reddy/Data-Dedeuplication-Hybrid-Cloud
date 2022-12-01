@@ -10,21 +10,21 @@
 <!--        <welcome-file>default.html</welcome-file>-->
 <!--        <welcome-file>default.jsp</welcome-file>-->
 <!--    </welcome-file-list>-->
-    <servlet>
-        <description></description>
-        <display-name>ClouadLink</display-name>
-        <servlet-name>ClouadLink</servlet-name>
-        <servlet-class>com.example.hybrid_cloud_.http.ClouadLink</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>ClouadLink</servlet-name>
-        <url-pattern>/ClouadLink</url-pattern>
-    </servlet-mapping>
+<!--    <servlet>-->
+<!--        <description></description>-->
+<!--        <display-name>ClouadLink</display-name>-->
+<!--        <servlet-name>ClouadLink</servlet-name>-->
+<!--        <servlet-class>com.example.hybrid_cloud.http.ClouadLink</servlet-class>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>ClouadLink</servlet-name>-->
+<!--        <url-pattern>/ClouadLink</url-pattern>-->
+<!--    </servlet-mapping>-->
     <servlet>
         <description></description>
         <display-name>LoginServlet</display-name>
         <servlet-name>LoginServlet</servlet-name>
-        <servlet-class>com.example.hybrid_cloud_.http.LoginServlet</servlet-class>
+        <servlet-class>com.example.hybrid_cloud.http.LoginServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>

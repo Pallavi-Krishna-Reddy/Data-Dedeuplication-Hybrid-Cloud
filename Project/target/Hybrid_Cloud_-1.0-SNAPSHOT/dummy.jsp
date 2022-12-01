@@ -1,12 +1,12 @@
 <%@page import="java.io.ObjectInputStream"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.io.InputStream"%>
-<%@page import="com.example.hybrid_cloud_.algo.DbConnection"%>
-<%@page import="com.example.hybrid_cloud_.algo.EData"%>
+<%@page import="com.example.hybrid_cloud.algo.DbConnection"%>
+<%@page import="com.example.hybrid_cloud.algo.EData"%>
 <%@page import="java.io.File"%>
 <%@page import="java.io.FileInputStream"%>
 <%@ page import="javax.xml.bind.DatatypeConverter" %>
-<%@ page import="com.example.hybrid_cloud_.algo.Decryption" %>
+<%@ page import="com.example.hybrid_cloud.algo.Decryption" %>
 <%@ page trimDirectiveWhitespaces="true" %>
 <%
 
