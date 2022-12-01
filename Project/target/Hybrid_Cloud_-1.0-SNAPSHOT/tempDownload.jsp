@@ -2,13 +2,13 @@
 <%@page import="java.io.FileOutputStream"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="java.util.List"%>
-<%@page import="com.example.hybrid_cloud_.algo.ReadWriteFile"%>
-<%@page import="com.example.hybrid_cloud_.algo.EData"%>
+<%@page import="com.example.hybrid_cloud.algo.ReadWriteFile"%>
+<%@page import="com.example.hybrid_cloud.algo.EData"%>
 <%@page import="java.io.ObjectInputStream"%>
 <%@page import="javax.xml.bind.DatatypeConverter"%>
 <%@page import="java.sql.ResultSet"%>
-<%@page import="com.example.hybrid_cloud_.algo.DbConnection"%>
-<%@page import="com.example.hybrid_cloud_.algo.Decryption"%>
+<%@page import="com.example.hybrid_cloud.algo.DbConnection"%>
+<%@page import="com.example.hybrid_cloud.algo.Decryption"%>
 <%@page import="java.io.InputStream"%>
 <%@page import="java.io.OutputStream"%>
 <%@page import="java.io.File"%>

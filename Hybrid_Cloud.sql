@@ -27,8 +27,7 @@ CREATE TABLE `_fingerprint` (
   `file_id` int(11) NOT NULL,
   `_key` varchar(99) DEFAULT NULL,
   `startPos` int(11) DEFAULT NULL,
-  `endPos` int(11) DEFAULT NULL,
-  PRIMARY KEY (`_email`,`file_id`)
+  `endPos` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 /*Data for the table `_fingerprint` */

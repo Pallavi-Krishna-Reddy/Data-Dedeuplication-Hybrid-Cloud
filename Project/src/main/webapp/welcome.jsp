@@ -1,7 +1,7 @@
 <%@page import="java.sql.SQLException"%>
 <%@page import="java.sql.ResultSet"%>
-<%@page import="com.example.hybrid_cloud_.algo.DbConnection"%>
-<%@page import="com.example.hybrid_cloud_.algo.MessageDigest5Base"%>
+<%@page import="com.example.hybrid_cloud.algo.DbConnection"%>
+<%@page import="com.example.hybrid_cloud.algo.MessageDigest5Base"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>

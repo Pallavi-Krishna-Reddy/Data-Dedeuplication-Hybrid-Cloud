@@ -1,7 +1,7 @@
 <%@page import="java.sql.SQLException"%>
 <%@page import="java.sql.ResultSet"%>
-<%@page import="com.example.hybrid_cloud_.algo.MessageDigest5Base"%>
-<%@page import="com.example.hybrid_cloud_.algo.DbConnection"%>
+<%@page import="com.example.hybrid_cloud.algo.MessageDigest5Base"%>
+<%@page import="com.example.hybrid_cloud.algo.DbConnection"%>
 <html>
 
 <head>

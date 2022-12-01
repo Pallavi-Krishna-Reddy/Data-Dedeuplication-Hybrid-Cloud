@@ -16,6 +16,8 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.49" />
+          <element id="library" level="project" name="Maven: javax.xml.bind:jaxb-api:2.4.0-b180830.0359" />
+          <element id="library" level="project" name="Maven: javax.activation:javax.activation-api:1.2.0" />
         </element>
       </element>
       <element id="directory" name="META-INF">

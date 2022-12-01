@@ -1,7 +1,7 @@
 <%@page import="java.util.ArrayList"%>
 <%@page import="java.util.List"%>
-<%@page import="com.example.hybrid_cloud_.algo.ReadWriteFile"%>
-<%@page import="com.example.hybrid_cloud_.algo.DbConnection"%>
+<%@page import="com.example.hybrid_cloud.algo.ReadWriteFile"%>
+<%@page import="com.example.hybrid_cloud.algo.DbConnection"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -32,23 +32,16 @@ DbConnection db=DbConnection.getDbConnection();
 System.out.println("user want to share storage : "+s);
 if(s.equals("Yes"))
 {
-	
 	// send request to other user for share key
-	
 	 db.mkcon();
 	 System.out.println("insert into share_data values('"+to_email+"','"+email+"',"+old_file_id+",'No')");
-
 	 db.dbUpdate("insert into share_data values('"+to_email+"','"+email+"',"+old_file_id+",'No')");
-	// db.dbUpdate("insert into users_files values('"+email+"',"+old_file_id+")");
 }
 else
 {
 	// store as new file
-	
 	 ReadWriteFile text = new ReadWriteFile();
-	 List<String> oList=new ArrayList<String>();
-	 oList.add(edata);
-	 text.writeLargerTextFile(spath+"\\"+fid+".hye", oList);
+	 text.writeFile(spath+"\\"+fid+".hye", edata);
 	 
 	 db.mkcon();
  	 db.dbUpdate("insert into _fingerprint values('"+hash+"','"+email+"','"+saveFile+"',"+fid+",'"+ekey+"',"+startPos+","+endPos+")");
