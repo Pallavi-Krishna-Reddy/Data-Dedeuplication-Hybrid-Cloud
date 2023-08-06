@@ -24,3 +24,6 @@ Steps to run the Project:
 13. Select "Yes" under "We found duplicate data" and click "Go".
 14. Login as user 1 now, click on "Share Request" tab and see the request from user 2. Click on Approve.
 15. Login as user 2, click on "Download" tab and see that "file1" can be seen. Click on it and the file gets downloaded.
+
+Contact me for any queries-
+LinkedIn: [@surajjavalli](http://linkedin.com/in/surajjavalli)
